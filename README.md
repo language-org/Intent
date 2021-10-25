@@ -30,3 +30,4 @@ python main.py train_predict
 * `punkt`
   * tokenization
 * `ELMo`: for deep contextualized word representation 
+* etc ...
