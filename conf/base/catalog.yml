@@ -1,0 +1,8 @@
+
+# author: steeve LAQUITAINE
+
+parsed: "<proj_path>/data/02_intermediate/parsed.xlsx"
+annots: ""<proj_path>/data/02_intermediate/annots.xlsx"
+cfg: ""<proj_path>/data/02_intermediate/cfg_02_04_2021_17_13_20.xlsx"
+cfg_productions: ""<proj_path>/data/02_intermediate/cfg"
+sim: ""<proj_path>/data/02_intermediate/sim_matrix.xlsx"

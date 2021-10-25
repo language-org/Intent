@@ -1,0 +1,672 @@
+[
+    {
+        "query": "Do you have any accounts for children ?",
+        "class_proba": 0.2741935484,
+        "intent": [
+            "have"
+        ],
+        "intendeed": [
+            "accounts"
+        ],
+        "True label": "age_limit"
+    },
+    {
+        "query": "May I get an account for my daughter?",
+        "class_proba": 0.2741935484,
+        "intent": [
+            "get"
+        ],
+        "intendeed": [
+            "account"
+        ],
+        "True label": "age_limit"
+    },
+    {
+        "query": "Could my daughter open an account?",
+        "class_proba": 0.2741935484,
+        "intent": [
+            "open"
+        ],
+        "intendeed": [
+            "account"
+        ],
+        "True label": "age_limit"
+    },
+    {
+        "query": "Can my children have an account?",
+        "class_proba": 0.2741935484,
+        "intent": [
+            "have"
+        ],
+        "intendeed": [
+            "account"
+        ],
+        "True label": "age_limit"
+    },
+    {
+        "query": "Can my children get an account?",
+        "class_proba": 0.2741935484,
+        "intent": [
+            "get"
+        ],
+        "intendeed": [
+            "account"
+        ],
+        "True label": "age_limit"
+    },
+    {
+        "query": "Could I open an account for children?",
+        "class_proba": 0.2741935484,
+        "intent": [
+            "open"
+        ],
+        "intendeed": [
+            "account"
+        ],
+        "True label": "age_limit"
+    },
+    {
+        "query": "Can I get an account for my daughter?",
+        "class_proba": 0.2741935484,
+        "intent": [
+            "get"
+        ],
+        "intendeed": [
+            "account"
+        ],
+        "True label": "age_limit"
+    },
+    {
+        "query": "Can I start an account for my kids?",
+        "class_proba": 0.2741935484,
+        "intent": [
+            "start"
+        ],
+        "intendeed": [
+            "account"
+        ],
+        "True label": "age_limit"
+    },
+    {
+        "query": "Can my children open an account?",
+        "class_proba": 0.2741935484,
+        "intent": [
+            "open"
+        ],
+        "intendeed": [
+            "account"
+        ],
+        "True label": "age_limit"
+    },
+    {
+        "query": "Do you offer account services for children and teens?",
+        "class_proba": 0.2741935484,
+        "intent": [
+            "offer"
+        ],
+        "intendeed": [
+            "services"
+        ],
+        "True label": "age_limit"
+    },
+    {
+        "query": "At what age can I open an account?",
+        "class_proba": 0.2741935484,
+        "intent": [
+            "open"
+        ],
+        "intendeed": [
+            "account"
+        ],
+        "True label": "age_limit"
+    },
+    {
+        "query": "How can I open an account for my children?",
+        "class_proba": 0.2741935484,
+        "intent": [
+            "open"
+        ],
+        "intendeed": [
+            "account"
+        ],
+        "True label": "age_limit"
+    },
+    {
+        "query": "At what age can a person open an account?",
+        "class_proba": 0.2741935484,
+        "intent": [
+            "open"
+        ],
+        "intendeed": [
+            "account"
+        ],
+        "True label": "age_limit"
+    },
+    {
+        "query": "Can my teenager have an account?",
+        "class_proba": 0.2741935484,
+        "intent": [
+            "have"
+        ],
+        "intendeed": [
+            "account"
+        ],
+        "True label": "age_limit"
+    },
+    {
+        "query": "Can I open an account for my children?",
+        "class_proba": 0.2741935484,
+        "intent": [
+            "open"
+        ],
+        "intendeed": [
+            "account"
+        ],
+        "True label": "age_limit"
+    },
+    {
+        "query": "Can I get an account for my son?",
+        "class_proba": 0.2741935484,
+        "intent": [
+            "get"
+        ],
+        "intendeed": [
+            "account"
+        ],
+        "True label": "age_limit"
+    },
+    {
+        "query": "Do you offer account's for minors?",
+        "class_proba": 0.2741935484,
+        "intent": [
+            "'s"
+        ],
+        "True label": "age_limit"
+    },
+    {
+        "query": "How old can one use your service?",
+        "class_proba": 0.1451612903,
+        "intent": [
+            "use"
+        ],
+        "intendeed": [
+            "service"
+        ],
+        "True label": "age_limit"
+    },
+    {
+        "query": "How can I dispute a debit transaction?",
+        "class_proba": 0.1451612903,
+        "intent": [
+            "dispute"
+        ],
+        "intendeed": [
+            "transaction"
+        ],
+        "True label": "direct_debit_payment_not_recognised"
+    },
+    {
+        "query": "How do I get a refund for an unauthorized direct debit payment?",
+        "class_proba": 0.1451612903,
+        "intent": [
+            "get"
+        ],
+        "intendeed": [
+            "refund"
+        ],
+        "True label": "direct_debit_payment_not_recognised"
+    },
+    {
+        "query": "How can I dispute a direct debit charge on my account?",
+        "class_proba": 0.1451612903,
+        "intent": [
+            "dispute"
+        ],
+        "intendeed": [
+            "charge"
+        ],
+        "True label": "direct_debit_payment_not_recognised"
+    },
+    {
+        "query": "How do I dispute a direct debit that I didn't do?",
+        "class_proba": 0.1451612903,
+        "intent": [
+            "dispute"
+        ],
+        "intendeed": [
+            "debit",
+            "that"
+        ],
+        "True label": "direct_debit_payment_not_recognised"
+    },
+    {
+        "query": "How do I dispute a direct debit transaction?",
+        "class_proba": 0.1451612903,
+        "intent": [
+            "dispute"
+        ],
+        "intendeed": [
+            "transaction"
+        ],
+        "True label": "direct_debit_payment_not_recognised"
+    },
+    {
+        "query": "How do I dispute a debit that I didn't make?",
+        "class_proba": 0.1451612903,
+        "intent": [
+            "dispute"
+        ],
+        "intendeed": [
+            "debit"
+        ],
+        "True label": "direct_debit_payment_not_recognised"
+    },
+    {
+        "query": "How do I dispute a direct debit on my account?",
+        "class_proba": 0.1451612903,
+        "intent": [
+            "dispute"
+        ],
+        "intendeed": [
+            "debit"
+        ],
+        "True label": "direct_debit_payment_not_recognised"
+    },
+    {
+        "query": "From which age can my kids use your service?",
+        "class_proba": 0.1451612903,
+        "intent": [
+            "use"
+        ],
+        "intendeed": [
+            "service"
+        ],
+        "True label": "age_limit"
+    },
+    {
+        "query": "How can I dispute a direct debit transaction?",
+        "class_proba": 0.1451612903,
+        "intent": [
+            "dispute"
+        ],
+        "intendeed": [
+            "transaction"
+        ],
+        "True label": "direct_debit_payment_not_recognised"
+    },
+    {
+        "query": "Can my daughter make an account?",
+        "class_proba": 0.1451612903,
+        "intent": [
+            "make"
+        ],
+        "intendeed": [
+            "account"
+        ],
+        "True label": "age_limit"
+    },
+    {
+        "query": "Please tell my why I was charged a fee for using my card?",
+        "class_proba": 0.1451612903,
+        "intent": [
+            "tell"
+        ],
+        "intendeed": [
+            "my",
+            "fee",
+            "card"
+        ],
+        "True label": "card_payment_fee_charged"
+    },
+    {
+        "query": "Can I make an account for my daughter?",
+        "class_proba": 0.1451612903,
+        "intent": [
+            "make"
+        ],
+        "intendeed": [
+            "account"
+        ],
+        "True label": "age_limit"
+    },
+    {
+        "query": "At what age can my children use your service?",
+        "class_proba": 0.1451612903,
+        "intent": [
+            "use"
+        ],
+        "intendeed": [
+            "service"
+        ],
+        "True label": "age_limit"
+    },
+    {
+        "query": "Do you guys have any age restrictions?",
+        "class_proba": 0.1451612903,
+        "intent": [
+            "have"
+        ],
+        "intendeed": [
+            "restrictions"
+        ],
+        "True label": "age_limit"
+    },
+    {
+        "query": "Do you have a limit for someone's age?",
+        "class_proba": 0.1451612903,
+        "intent": [
+            "have"
+        ],
+        "intendeed": [
+            "limit"
+        ],
+        "True label": "age_limit"
+    },
+    {
+        "query": "Do you have info about the card on delivery?",
+        "class_proba": 0.1451612903,
+        "intent": [
+            "have"
+        ],
+        "intendeed": [
+            "info"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "Do you have an age limit?",
+        "class_proba": 0.1451612903,
+        "intent": [
+            "have"
+        ],
+        "intendeed": [
+            "limit"
+        ],
+        "True label": "age_limit"
+    },
+    {
+        "query": "Can I dispute a debit payment that I am seeing that I didn't make from a couple of months ago?",
+        "class_proba": 0.1451612903,
+        "intent": [
+            "dispute"
+        ],
+        "intendeed": [
+            "payment"
+        ],
+        "DATE": "a couple of months ago",
+        "True label": "direct_debit_payment_not_recognised"
+    },
+    {
+        "query": "can you share card tracking number?",
+        "class_proba": 0.1451612903,
+        "intent": [
+            "number"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "When will I recieve my new card?",
+        "class_proba": 0.1451612903,
+        "intent": [
+            "recieve"
+        ],
+        "intendeed": [
+            "card"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "How do I start an exchange between GBP and AUD?",
+        "class_proba": 0.1451612903,
+        "intent": [
+            "start"
+        ],
+        "intendeed": [
+            "exchange"
+        ],
+        "ORG": "AUD",
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "When will I get my new card?",
+        "class_proba": 0.1451612903,
+        "intent": [
+            "get"
+        ],
+        "intendeed": [
+            "card"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "Can I get an update on my replacement card?",
+        "class_proba": 0.1451612903,
+        "intent": [
+            "get"
+        ],
+        "intendeed": [
+            "update"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "How can I convert currencies?",
+        "class_proba": 0.1451612903,
+        "intent": [
+            "convert"
+        ],
+        "intendeed": [
+            "currencies"
+        ],
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "How can I change currency type?",
+        "class_proba": 0.1451612903,
+        "intent": [
+            "type"
+        ],
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "Do you have any age limit?",
+        "class_proba": 0.1451612903,
+        "intent": [
+            "have"
+        ],
+        "intendeed": [
+            "limit"
+        ],
+        "True label": "age_limit"
+    },
+    {
+        "query": "Could I get tracking on the card?",
+        "class_proba": 0.1451612903,
+        "intent": [
+            "get"
+        ],
+        "intendeed": [
+            "tracking"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "Do you have a tracking number for the card I was sent?",
+        "class_proba": 0.1451612903,
+        "intent": [
+            "have"
+        ],
+        "intendeed": [
+            "number"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "How can I periodically check the delivery of the card you sent?",
+        "class_proba": 0.1290322581,
+        "intent": [
+            "check"
+        ],
+        "intendeed": [
+            "delivery"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "Can I track the card you sent to me?",
+        "class_proba": 0.1290322581,
+        "intent": [
+            "track"
+        ],
+        "intendeed": [
+            "card"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "How can I see the progress of delivery of the card that was sent?",
+        "class_proba": 0.1290322581,
+        "intent": [
+            "see"
+        ],
+        "intendeed": [
+            "progress"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "How can I track my card's delivery?",
+        "class_proba": 0.1290322581,
+        "intent": [
+            "track"
+        ],
+        "intendeed": [
+            "delivery"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "Can I track the card that was just sent to me?",
+        "class_proba": 0.1290322581,
+        "intent": [
+            "track"
+        ],
+        "intendeed": [
+            "card"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "How do I track the card you sent me?",
+        "class_proba": 0.1290322581,
+        "intent": [
+            "track"
+        ],
+        "intendeed": [
+            "card",
+            "me"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "How do I track the card you sent to me?",
+        "class_proba": 0.1290322581,
+        "intent": [
+            "track"
+        ],
+        "intendeed": [
+            "card"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "Does your app allow currency exchanges between USD and GBP?",
+        "class_proba": 0.1290322581,
+        "intent": [
+            "allow"
+        ],
+        "ORG": "GBP",
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "Does your app allow currency exchange from USD to GBP?",
+        "class_proba": 0.1290322581,
+        "intent": [
+            "allow"
+        ],
+        "ORG": "USD",
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "Can I exchange currencies with the app?",
+        "class_proba": 0.1290322581,
+        "intent": [
+            "currencies"
+        ],
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "How can I exchange currencies with this app?",
+        "class_proba": 0.1290322581,
+        "intent": [
+            "currencies"
+        ],
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "How do I make a currency exchange?",
+        "class_proba": 0.1290322581,
+        "intent": [
+            "make"
+        ],
+        "intendeed": [
+            "exchange"
+        ],
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "How can I change the currency I'm exchanging from AUD to GBP?",
+        "class_proba": 0.1290322581,
+        "intent": [
+            "change"
+        ],
+        "intendeed": [
+            "currency",
+            "exchanging"
+        ],
+        "ORG": "AUD",
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "Can this convert money?",
+        "class_proba": 0.1290322581,
+        "intent": [
+            "convert"
+        ],
+        "intendeed": [
+            "money"
+        ],
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "Can this app exchange American and English currency?",
+        "class_proba": 0.1290322581,
+        "intent": [
+            "currency"
+        ],
+        "NORP": "English",
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "Can I track the card that you sent me in the mail?",
+        "class_proba": 0.1290322581,
+        "intent": [
+            "track"
+        ],
+        "intendeed": [
+            "card",
+            "me"
+        ],
+        "True label": "card_arrival"
+    }
+]

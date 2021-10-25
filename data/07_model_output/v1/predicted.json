@@ -1,0 +1,791 @@
+[
+    {
+        "query": "Where is the tracking number for the card?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "is"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "How do I change my currency to another?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "change"
+        ],
+        "intendeed": [
+            "currency"
+        ],
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "How much longer until I get my new card?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "get"
+        ],
+        "intendeed": [
+            "card"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "Is it possible to change from AUD to GBP?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "change"
+        ],
+        "ORG": "AUD",
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "Can you tell me why I haven't received my new card?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "tell"
+        ],
+        "intendeed": [
+            "me",
+            "card"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "My card was supposed to arrive, but hasn't?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "supposed"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "How can I change to another currency?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "change"
+        ],
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "Is there a way to track the new card you sent me?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "track"
+        ],
+        "intendeed": [
+            "card",
+            "me"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "Can I track the card you sent to me?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "track"
+        ],
+        "intendeed": [
+            "card"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "Is there a way to track my card?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "track"
+        ],
+        "intendeed": [
+            "card"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "Why haven't I gotten my new card?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "gotten"
+        ],
+        "intendeed": [
+            "card"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "Can you track my card for me?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "track"
+        ],
+        "intendeed": [
+            "card"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "Have you sent out my card yet?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "sent"
+        ],
+        "intendeed": [
+            "card"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "When did you send me my new card?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "send"
+        ],
+        "intendeed": [
+            "card"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "What's the process of changing from GBP to AUD?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "'s"
+        ],
+        "ORG": "AUD",
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "How long will it be to get this new card?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "be"
+        ],
+        "intendeed": [
+            "card"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "When will my new card be delivered?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "delivered"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "What's the expected wait time to recieve my new card?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "'s"
+        ],
+        "intendeed": [
+            "card"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "What's the tracking on the card you sent?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "'s"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "How long will it take for me to get my card?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "take"
+        ],
+        "intendeed": [
+            "card"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "Shouldn't my new card be here by now?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "be"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "How do I know if I will get my card, or if it is lost?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "know"
+        ],
+        "intendeed": [
+            "card"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "How can I convert currencies?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "convert"
+        ],
+        "intendeed": [
+            "currencies"
+        ],
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "I am from X but am traveling to Y - how do I get currency for Y?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "am"
+        ],
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "It's been two weeks and I haven't gotten my card, what do I do?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "been",
+            "gotten"
+        ],
+        "intendeed": [
+            "card"
+        ],
+        "DATE": "two weeks",
+        "True label": "card_arrival"
+    },
+    {
+        "query": "How do I track the card you sent to me?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "track"
+        ],
+        "intendeed": [
+            "card"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "what currencies can i exchange between on your app?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "exchange"
+        ],
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "Is it possible for me to track the card is was mailed to me?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "track"
+        ],
+        "intendeed": [
+            "card"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "My card still hasn't arrived after two weeks, now what?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "arrived"
+        ],
+        "DATE": "two weeks",
+        "True label": "card_arrival"
+    },
+    {
+        "query": "What is the status of my card's delivery?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "is"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "Could you send me and up date on the arrival of my card?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "send"
+        ],
+        "intendeed": [
+            "me",
+            "date"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "How can I exchange GBP for AUD?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "GBP"
+        ],
+        "ORG": "AUD",
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "Whats types of currency can I exchange?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "exchange"
+        ],
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "Is it possible to exchange USD and GBP on the app?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "exchange"
+        ],
+        "intendeed": [
+            "USD"
+        ],
+        "ORG": "GBP",
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "On the card that is coming, what's the tracking info?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "coming"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "Can I use this app for both USD and GBP?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "use"
+        ],
+        "intendeed": [
+            "app"
+        ],
+        "ORG": "GBP",
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "If I need to make an exchange from USD to GBP, how can I do so in the app?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "need"
+        ],
+        "intendeed": [
+            "exchange"
+        ],
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "When will my new card arrive?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "arrive"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "Can I convert currency with the app?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "convert"
+        ],
+        "intendeed": [
+            "currency"
+        ],
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "Can currencies be exchanged on this app?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "exchanged"
+        ],
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "Can you  tell me how to get AUD not GBP?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "tell"
+        ],
+        "intendeed": [
+            "me"
+        ],
+        "ORG": "AUD",
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "What do I do if I still have not received my new card?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "do"
+        ],
+        "intendeed": [
+            "card"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "What's the reason my new card hasn't come?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "'s"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "I have not received my card and it's been a week, what do I do?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "received"
+        ],
+        "intendeed": [
+            "card"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "I want to find out what happened to my new card?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "want"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "I need to exchange my GBP to AUD, how would I do this?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "need"
+        ],
+        "intendeed": [
+            "GBP"
+        ],
+        "ORG": "AUD",
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "Does the package with my card have tracking?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "tracking"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "How can I change currency type?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "type"
+        ],
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "How long until my new card gets here?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "gets"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "I no longer need AUD, I need GBP instead, how can I make this happen?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "need"
+        ],
+        "intendeed": [
+            "AUD"
+        ],
+        "ORG": "AUD",
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "Will I be able to track the card that was sent to me?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "be"
+        ],
+        "intendeed": [
+            "card"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "How can I trade currencies with this app?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "currencies"
+        ],
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "Is there a reason my new card hasn't arrived?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "arrived"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "Can I track the card that was just sent to me?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "track"
+        ],
+        "intendeed": [
+            "card"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "Will it be possible to change from USD to GBP with this App?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "be"
+        ],
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "How do I change my AUD into GBP?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "change"
+        ],
+        "intendeed": [
+            "AUD"
+        ],
+        "ORG": "AUD",
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "What currencies can be exchanged in the app?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "exchanged"
+        ],
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "When will I recieve my new card?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "recieve"
+        ],
+        "intendeed": [
+            "card"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "How do I exchange USD to GBP?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "USD"
+        ],
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "Can I use this app to exchange between dollars and pounds?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "use"
+        ],
+        "intendeed": [
+            "app"
+        ],
+        "MONEY": "between dollars",
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "Can you tell me if I can track the card you sent me?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "tell"
+        ],
+        "intendeed": [
+            "me",
+            "card",
+            "me"
+        ],
+        "True label": "card_arrival"
+    },
+    {
+        "query": "What do I need to do to get my new card which I have requested 2 weeks ago?",
+        "class_proba": 0.4871794872,
+        "intent": [
+            "need"
+        ],
+        "intendeed": [
+            "card",
+            "which"
+        ],
+        "DATE": "2 weeks ago",
+        "True label": "card_arrival"
+    },
+    {
+        "query": "Can money be exchanged from one currency to another?",
+        "class_proba": 0.2051282051,
+        "intent": [
+            "exchanged"
+        ],
+        "CARDINAL": "one",
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "How can I change the currency I'm exchanging from AUD to GBP?",
+        "class_proba": 0.2051282051,
+        "intent": [
+            "change"
+        ],
+        "intendeed": [
+            "currency",
+            "exchanging"
+        ],
+        "ORG": "AUD",
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "Is it possible to exchange currencies?",
+        "class_proba": 0.2051282051,
+        "intent": [
+            "exchange"
+        ],
+        "intendeed": [
+            "currencies"
+        ],
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "Is it possible to exchange currencies using the app?",
+        "class_proba": 0.2051282051,
+        "intent": [
+            "exchange"
+        ],
+        "intendeed": [
+            "currencies",
+            "app"
+        ],
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "How do I exchange currencies using the app?",
+        "class_proba": 0.2051282051,
+        "intent": [
+            "currencies"
+        ],
+        "intendeed": [
+            "app"
+        ],
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "Can I use this app to change money?",
+        "class_proba": 0.2051282051,
+        "intent": [
+            "use"
+        ],
+        "intendeed": [
+            "app",
+            "money"
+        ],
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "Can I use this app to exchange currencies?",
+        "class_proba": 0.2051282051,
+        "intent": [
+            "use"
+        ],
+        "intendeed": [
+            "app",
+            "currencies"
+        ],
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "Does this app allow currencies to be exchanged?",
+        "class_proba": 0.2051282051,
+        "intent": [
+            "allow"
+        ],
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "What steps do I need to take to exchange currencies?",
+        "class_proba": 0.2051282051,
+        "intent": [
+            "need"
+        ],
+        "intendeed": [
+            "currencies"
+        ],
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "I need to exchange a currency - can I do that here?",
+        "class_proba": 0.2051282051,
+        "intent": [
+            "exchange"
+        ],
+        "intendeed": [
+            "currency"
+        ],
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "How to I switch my money for the money used in another country?",
+        "class_proba": 0.2051282051,
+        "intent": [
+            "switch"
+        ],
+        "intendeed": [
+            "money"
+        ],
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "Does this app exchange currencies?",
+        "class_proba": 0.2051282051,
+        "intent": [
+            "currencies"
+        ],
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "How can I exchange currencies with this app?",
+        "class_proba": 0.2051282051,
+        "intent": [
+            "currencies"
+        ],
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "Can I convert money into different currencies?",
+        "class_proba": 0.2051282051,
+        "intent": [
+            "convert"
+        ],
+        "intendeed": [
+            "money"
+        ],
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "Can this app be used to exchange currencies?",
+        "class_proba": 0.2051282051,
+        "intent": [
+            "used"
+        ],
+        "intendeed": [
+            "currencies"
+        ],
+        "True label": "exchange_via_app"
+    },
+    {
+        "query": "Can this app exchange American and English currency?",
+        "class_proba": 0.2051282051,
+        "intent": [
+            "currency"
+        ],
+        "NORP": "English",
+        "True label": "exchange_via_app"
+    }
+]

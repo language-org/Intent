@@ -1,0 +1,29 @@
+# author: steeve LAQUITAINE
+
+annotation: None # 'do', 'load'
+
+INSPECT: True
+
+sampling:
+  random_state: 0
+  sample: 100000 #100
+
+mlflow:
+  experiment_name: u2i
+  tracking_uri: mlruns/
+
+# filtering
+intent_class: ["card_arrival", "exchange_via_app", "age_limit", "card_payment_fee_charged", "direct_debit_payment_not_recognised"]
+DENOISING:
+  SEED: " VB NP"
+  FILTERING_METHOD: lcs
+DIST_THRES: 3   
+NUM_SENT: 1     
+INTENT_SCORE: 1           # 1
+FILT_MOOD: "ask"          # ("state", "wish-or-excl", "ask")
+
+# cluster labelling
+HCL_METHOD: "average"
+CRITERION: maxclust
+MAX_CLUST: 5
+PREDICT_METHOD: "cluster_label_mode"
